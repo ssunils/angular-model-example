@@ -1,0 +1,18 @@
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Grade</th>
+    </tr>
+  </thead>
+  @for (student of filteredStudents(); track student) {
+  <tr>
+    <td>{{ student.name }}</td>
+    <td>Grade {{ student.grade }}</td>
+  </tr>
+  } @empty {
+  <tr>
+    <td>No students available that match the filter</td>
+  </tr>
+  }
+</table>
