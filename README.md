@@ -1,3 +1,4 @@
-# angular-model-example
+# Angular Model Example
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/ssunils/angular-model-example)
+To know more about Angular model visit my [Medium article](#)
+
